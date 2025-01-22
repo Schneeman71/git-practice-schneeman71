@@ -1,0 +1,214 @@
+    5  git clone https://github.com/BYUCS235/cs235-assignments/tree/main
+    6  git clone https://github.com/BYUCS235/cs235-assignments
+   16  sudo apt install git
+   17  git config --global user.name "
+   22  git config --global user.name "James"
+   23  git config --global user.email "potatoheadmgee@gmail.com"
+   26  git clone git@github.com:ACME-Junior-Lab/fall-24-vol2-Schneeman71-4.git
+   36  git clone git@github.com:ACME-Junior-Lab/fall-24-vol1-Schneeman71.git
+   88  git pull origin main
+   89  git status
+   90  git add car1.png car2.png robot.png GitHubIntro.tex
+   92  git pull origin main
+   93  git add car1.png
+   95  cd github_intro.py
+   96  git status
+   97  git add github_intro.py
+   98  git commit -m "Finished Problem 1"
+   99  git push origin main
+  101  git status
+  102  git add github_intro.py
+  103  git commit -m "Finished problem 2"
+  104  git pull
+  105  git config pull.rebase false
+  106  git add github_intro.py
+  107  git commit -m "Finished problem 2"
+  108  git pull
+  117  git add unixshell1
+  118  git add UnixShell1
+  120  git add unixshell1.sh
+  121  git commit "unixshell"
+  122  git commit -m "unixshell"
+  123  git add unixshell1.sh
+  124  git commit -m "unixshell"
+  125  git pull unixshell1
+  131  git pull
+  132  git pull origin main
+  137  git add unixshell1.sh
+  138  git commit -m "remove unmerged conflicts"
+  139  git add
+  140  git add unixshell1.sh
+  141  git stash
+  142  git checkout
+  143  git add unixshell1.sh
+  144  git status
+  145  git add github_intro.py
+  160  add github_intro.py
+  161  git add github_intro.py
+  162  git commit github_intro.py "resolving merge"
+  163  git -m commit github_intro.py "resolving merge"
+  164  git commit -m github_intro.py "resolving merge"
+  165  git add github_intro.py
+  166  git status
+  167  git commit
+  169  git add github_intro.py
+  171  git status
+  172  git push
+  173  git status
+  178  git add unixshell1.sh
+  179  git commit -m "Merged"
+  180  git push
+  181  git add unixshell1.sh
+  182  git status
+  183  git push
+  184  git add unixshell1.sh
+  185  git push
+  229  git add UnixShell1.tar.gz unixshell1.sh
+  230  git commit "First Lab"
+  231  git commit UnixShell1.tar.gz unixshell1.sh "First Lab"
+  232  git status
+  233  git add UnixShell1.tar.gz
+  234  git add unixshell1.sh
+  235  git commit -m "First Lab"
+  236  git push origin main
+  240  git bash
+  242  git.push
+  247  git
+  248  git -- version
+  249  git version
+  250  git help
+  251  git add
+  252  git init txt
+  257  git add txt
+  258  git push
+  259  git remote add txt https://github.com/Schneeman71/BaconPancakes
+  260  git commit
+  261  git status
+  281  git
+  284  git add new file.txt
+  285  git init
+  287  git add new file.txt
+  288  git commit
+  302  git config --global credential.helper store
+  344  cd git-practic-Schneeman71
+  347  git remote add origin git@github.com:Schneeman71/git_practice_Schneeman71.git
+  348  git push -u origin main
+  349  git status
+  350  git push
+  351  git push --set-updstream origin master
+  352  git push --set-upstream origin master
+  353  git remote add origin git@github.com:Schneeman71/git_practice_Schneeman71.git
+  354  git push -u origin main
+  355  git status
+  360  cd git-practic-Schneeman71
+  361  git remote add origin git@github.com:Schneeman71/git_practice_Schneeman71.git
+  362  git remote -v
+  363  git remote set-url origin error: remote origin already exists.
+  364  git remote set-url origin  git remote set-url origin error: remote origin already exists.
+  365  usage: git remote set-url [--push] <name> <newurl> [<oldurl>]
+  366     or: git remote set-url --add <name> <newurl>
+  367     or: git remote set-url --delete <name> <url>
+  371  git remote set-url origin git@github.com:Schneeman71/git_practice_Schneeman71.git
+  372  git remote -v
+  373  git push -u origin main
+  374  git status
+  375  git branch
+  376  git checkout -b main
+  377  git add .
+  378  git commit -m "initial commit"
+  379  git push -u origin main
+  384  git status
+  385  git add .
+  386  git rm .
+  387  git status
+  389  cd git-practic-Schneeman71
+  391  git status
+  392  git remote -v
+  393  git add .
+  394  git status
+  395  git push
+  396  git push --set-upstream origin main
+  403  ssh -T git@github.com
+  405  ssh -T git@github.com
+  406  git push --set-upstream origin main
+  407  git pull
+  408  git log --oneline > gitlog.txt
+  409  history | grep git > history.txt
+  411  git add .
+  413  git status
+  414  git push
+  417  git rm -r --cached Stat386
+  418  git -r Stat386
+  419  git rm Stat386
+  421  git rm -r Stat386
+  422  mkdir ~/git-practice
+  426  cd ~/git-practice
+  428  git init
+  430  git status
+  433  git status
+  434  git add .
+  436  git status
+  437  git commit -m "creating new files"
+  438  git status
+  439  git log
+  442  git status
+  443  git add .
+  444  git commit -m "new commit
+  446  git log
+  449  git add .
+  450  git status
+  451  git commit -m "readme commit"
+  452  touch .gitignore
+  453  nano .gitignore
+  454  git add .
+  455  git commit -m ",gitignore add"
+  456  git status
+  457  nano .gitignore
+  458  git status
+  459  git add .
+  460  git commit -m "add text"
+  461  git branch features
+  462  git checkout features
+  463  git log
+  465  git add .
+  466  git commit -m "add empty file"
+  467  git log
+  469  git add .
+  470  git commit -m "new features"
+  471  git checkout main
+  472  git checkout Main
+  474  git checkout Origin
+  476  git checkout origin
+  478  git checkout master
+  480  git add .
+  481  git commit -m "new commit"
+  482  git merge features
+  483  git log
+  485  ~/git_practice
+  488  cd git-practice
+  491  git branch
+  493  git checkout features
+  496  git add .
+  497  git commit -m "New features"
+  498  git checkout master
+  499  git merge features
+  500  git log
+  503  cd git-practice
+  505  git checkout features
+  506  git status
+  507  git checkout master
+  508  git status
+  510  git rm branch features
+  511  git branch -d features
+  512  git remote add origin git@github.com:Schneeman71/git-practice-schneeman71.git
+  513  git remote -v
+  515  git push -u origin main
+  516  git push -u origin master
+  518  git rm new_features.txt
+  520  git status
+  521  git push -u origin master
+  523  git status
+  524  git add .
+  525  git commit -m "tadah"
+  526  git log --oneline > gitlog.txt
+  527  history | grep git > history.txt

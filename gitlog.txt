@@ -1,0 +1,12 @@
+07baa25 tadah
+c852e82 Merge branch 'features'
+46982b3 New features
+0b0127c Merge branch 'features'
+1e5fcf3 new commit
+1b5ee5d new features
+592f27c add empty file
+40f51c7 add text
+2aaf48d ,gitignore add
+76d9963 readme commit
+5b81e41 new commit
+65db34a creating new files
